@@ -1,0 +1,14 @@
+### Fetching all tasks
+GET http://localhost:7000/api/v2
+Content-Type: application/json
+
+
+### Insert data
+POST http://localhost:7000/api/v2
+Content-Type: application/json
+
+{
+    "icon": "🍐",
+    "name": "Pear",
+    "color": "Green"
+}
